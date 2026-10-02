@@ -18,7 +18,7 @@ export default function LoginForm() {
   };
 
   const handleSubmit = (event) => {
-    event.preventDefault();
+    // event.preventDefault();
     alert(`Bonjour ${Nom}`);
   };
   
