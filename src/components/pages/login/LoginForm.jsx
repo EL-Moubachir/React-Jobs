@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-// import './LoginForm.css';
-import LoginPage from "./LoginPage";
+import { Link } from "react-router";
 
 export default function LoginForm() {
   // Definir un state
@@ -42,6 +41,9 @@ export default function LoginForm() {
       
       <button>Acceder a votre espace </button>
       {/* Add your components and routes here */}
+      <Link to="/order">Go to Order Page</Link>
+
     </form>
+    
   );
 }
